@@ -1,0 +1,31 @@
+{
+	"name": "toxyy/userdeletetopics",
+	"type": "phpbb-extension",
+	"description": "Allow users to delete their own topics, even if others have posted",
+	"homepage": "https://github.com/toxyy/userdeletetopics",
+	"version": "0.1.0",
+	"time": "2019-01-25",
+	"keywords": ["phpbb", "extension", "delete", "topic", "last post"],
+	"license": "GPL-2.0",
+	"authors": [{
+			"name": "toxyy",
+			"email": "thrashtek@yahoo.com",
+			"homepage": "https://github.com/toxyy/",
+			"role": "Developer"
+		}],
+	"require": {
+		"php": ">=7"
+	},
+	"extra": {
+		"display-name": "User Delete Topics",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.2"
+		},
+		"version-check": {
+			"host": "toxyy.github.io",
+			"directory": "/version",
+			"filename": "userdeletetopics.json",
+                        "ssl": 1
+		}
+	}
+}

@@ -1,0 +1,8 @@
+services:
+    toxyy.userdeletetopics.listener:
+        class: toxyy\userdeletetopics\event\listener
+        arguments:
+            - '@user'
+            - '@auth'
+        tags:
+            - { name: event.listener }

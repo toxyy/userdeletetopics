@@ -1,12 +1,12 @@
-# PhpBB Extension - toxyy User Delete Topics v1.0.0
+# PhpBB Extension - toxyy User Delete Topics v0.1.0
 
-[Topic on phpBB.com]()
+[Topic on phpBB.com](https://www.phpbb.com/community/viewtopic.php?f=456&t=2499786)
 
 ## Requirements
 
 phpBB 3.2.5-RC1+ PHP 7+
 
-ticket ??? - ???
+ticket 15951 - https://github.com/phpbb/phpbb/pull/5523
 
 ## Features
 
@@ -14,7 +14,8 @@ Adds config option in `Board Features` for showing user forum and topic activity
 
 ## Screenshot
 
-![alt text]()
+![alt text](https://i.snag.gy/mh21xJ.jpg)
+![alt text](https://i.snag.gy/RutsHN.jpg)
 
 ## Quick Install
 
